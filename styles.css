@@ -1,0 +1,45 @@
+body {
+    font-family: 'Syne Mono', monospace;
+    background: linear-gradient(to right, #43c6ac, #191654); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-color: limegreen;*/
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 6vh;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: mediumpurple;
+}
+
+button:hover{
+    background-color: limegreen;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
